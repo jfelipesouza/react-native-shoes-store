@@ -6,20 +6,27 @@ const {height, width} = Dimensions.get('window');
 
 export const light = {
   colors: {
-    primary: '#5f0bdd',
-    secundary: '#331e77',
+    primary: '#1d3557',
+    primaryLight: '#a8dadc',
+    secundary: '#457b9d',
+    emphasys: '#e63946',
     text: '#222',
     background: '#fafafa',
+    textLight: '#fff',
   },
   fontSize: {
-    title: Percet(4),
+    title: Percet(4.5),
+    sectionTitle: Percet(3.4),
+    cardTitle: Percet(3),
     text: Percet(2.3),
-    icons: Percet(10),
+    icons: Percet(3.5),
   },
   space: {
     sm: Percet(1),
+    md: Percet(2),
+    lg: Percet(2.5),
   },
-  scrennDimensions: {
+  screenDimensions: {
     width,
     height,
     statusbarHeight,

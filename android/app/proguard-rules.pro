@@ -67,3 +67,7 @@
 -printconfiguration ~/tmp/full-r8-config.txt
 -keepattributes LineNumberTable,SourceFile
 -renamesourcefileattribute SourceFile
+
+# Svg
+
+-keep public class com.horcrux.svg.** {*;}
